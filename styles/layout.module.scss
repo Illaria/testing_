@@ -1,0 +1,67 @@
+.layout {
+    color: white;
+    .appbar {
+        background: black;
+        .toolbarRoot {
+            justify-content: center;
+        }
+        .hacktoberfestLogo {
+            height: 60px;
+            margin: 24px 0;
+        }
+        .hacktoberfestText {
+            font-size: 42px;
+            background: linear-gradient(
+                119deg,
+                rgba(156, 70, 104, 1) 15%,
+                rgba(255, 138, 226, 1) 51%,
+                rgba(147, 194, 219, 1) 81%
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .appbarSponsors {
+            height: 30px;
+            margin: 24px;
+            padding: 0 24px;
+            border-left: 1px solid lightgrey;
+        }
+    }
+    .footer {
+        position: fixed;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        bottom: 0;
+        right: 0;
+        color: white;
+        font-family: sans-serif;
+        .footerLink {
+            color: white;
+            text-decoration: none;
+        }
+        .footerLink:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .toolbarRoot {
+        display: flex;
+        flex-direction: column;
+    }
+    .hacktoberfestText{
+        display: none;
+    }
+    .appbarSponsors{
+        height: auto;
+        width: 100%;
+        border-left: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .footer{
+        display: none;
+    }
+}
