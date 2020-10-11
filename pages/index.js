@@ -28,7 +28,7 @@ const Home = ({ contributors }) => (
   <Layout>
     <Head />
     <Grid className={styles.welcomeGridWrapper} container>
-      <Typography variant={"h1"} className={styles.welcomeText}>Let's change the world together with Open Sourcyyyy!</Typography>
+      <Typography variant={"h1"} className={styles.welcomeText}>Let's change the world together with Open Source!</Typography>
       <Typography variant={"h2"} className={styles.welcomeSubText}>Hacktoberfest is open to everyone whether you're new to development, a student or a long-time contributor. Open your first pull request and generate a personalized certificate
       <a className={styles.githubLink} href="https://github.com/parikshitgupta1/hacktoberfest-mumbai" target="_blank">here</a>.
       </Typography>
